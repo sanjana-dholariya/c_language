@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+  int i=2,n;
+  clrscr();
+  printf("enter the nth value:");
+  scanf("%d",&n);
+  printf("the even number from n to 1 is:\n");
+  for(i=2;n>=2;n--)
+  {
+    if(n%2==0)
+      printf("  %d",n);
+
+
+  }
+  getch();
+
+
+}
